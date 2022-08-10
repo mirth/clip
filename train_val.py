@@ -50,7 +50,7 @@ def run(
         metrics=metrics
     )
 
-    trainer.run(train_loader, max_epochs=1000)
+    trainer.run(train_loader, max_epochs=max_epochs)
 
 def make_text_transforms(max_length):
     from transformers import BertTokenizer
