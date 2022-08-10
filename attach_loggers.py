@@ -3,6 +3,7 @@ from ignite.engine import create_supervised_evaluator, Events
 from ignite.contrib.handlers.tqdm_logger import ProgressBar
 from ignite.metrics import RunningAverage
 
+
 def attach_loggers(
     model,
     trainer,

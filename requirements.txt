@@ -1,0 +1,9 @@
+baker
+torch
+pytorch-ignite
+tensorboardX
+pandas
+Pillow
+torchvision
+imgaug
+transformers
